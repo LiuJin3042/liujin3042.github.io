@@ -34,7 +34,7 @@ for sub_dir in dir_2: # 对每一个子目录遍历查找文件
     for each_file in sub_files: # 从文件名(e.g. 2019-08-26-filename.md)中提取信息
         # 可以提取到年, 月, 日, 标题. 如果命名不规范就跳过.
         file_info = each_file.split('-')
-        if len(file_info) == 4:
+        if len(file_info) == 4 and each_file[-3:] == '.md':
             [year,month,day,title] = file_info
             title = title.replace('.md','') # 删去后缀名
             file = md_file(year,month,day,title,each_file)
