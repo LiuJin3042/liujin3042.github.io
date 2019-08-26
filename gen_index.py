@@ -42,7 +42,7 @@ for sub_dir in dir_2: # 对每一个子目录遍历查找文件
     dir_3.append(parent_dir(sub_dir,file_list))
     
 index_contents = [] # index.md的文件内容
-index_head = '# MyBlog  \n## [全部文章](./all_posts.md)  \n## 近期文章  \n'
+index_head = '## [全部文章](./all_posts.md)  \n## 近期文章  \n'
 index_contents.append(index_head)
 all_posts = [] # 所有子文件夹的目录
 all_posts.append('# 所有文章  \n')
