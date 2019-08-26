@@ -82,13 +82,13 @@ for each_dir in dir_3:
                                            '](',dir_1,'/',each_dir.dir_name,'/',\
                                            each_file.origin_title,')  \n']))
         index_contents.append('\n') # 所有文件输出完之后还有再一次换行
-    with open(''.join([dir_1,'/',each_dir.dir_name,'/contents.md']),'w') as contents:
+    with open(''.join([dir_1,'/',each_dir.dir_name,'/contents.md']),'w',encoding='utf-8') as contents:
         contents.writelines(dir_index)
         
-with open('./index.md','w') as index:
+with open('./index.md','w',encoding='utf-8') as index:
     index.writelines(index_contents)
 
-with open('./all_posts.md','w') as posts:
+with open('./all_posts.md','w',encoding='utf-8') as posts:
     posts.writelines(all_posts)
     
     
