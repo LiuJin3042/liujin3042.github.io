@@ -1,4 +1,3 @@
-# MyBlog  
 ## [全部文章](./all_posts.md)  
 ## 近期文章  
 ## [Git](./source/Git/contents.md)  
@@ -11,6 +10,7 @@
 
 ## [Python](./source/Python/contents.md)  
 
+  * 2019年08月26日: [用py查看目录下所有文件](./source/Python/2019-08-26-用py查看目录下所有文件.md)  
 
 ## [ThisBlog](./source/ThisBlog/contents.md)  
 
