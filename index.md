@@ -10,7 +10,7 @@
 
 ## [Linux](./source/Linux/contents.md)  
 
-  * 2019年08月27日: [Vim编辑器](./source/Linux/2019-08-27-Vim编辑器.md)  
+  * 2019年08月27日: [vim编辑器](./source/Linux/2019-08-27-vim编辑器.md)  
   * 2019年08月27日: [磁盘格式说明](./source/Linux/2019-08-27-磁盘格式说明.md)  
 
 ## [Markdown](./source/Markdown/contents.md)  
