@@ -39,6 +39,7 @@ for sub_dir in dir_2: # 对每一个子目录遍历查找文件
             title = title.replace('.md','') # 删去后缀名
             file = md_file(year,month,day,title,each_file)
             file_list.append(file)
+        file_list.reverse()
     dir_3.append(parent_dir(sub_dir,file_list))
     
 index_contents = [] # index.md的文件内容
