@@ -3,6 +3,7 @@
   * [Git](./source/Git/contents.md)  
   * [Linux](./source/Linux/contents.md)  
   * [Markdown](./source/Markdown/contents.md)  
+  * [MySQL](./source/MySQL/contents.md)  
   * [Network](./source/Network/contents.md)  
   * [Python](./source/Python/contents.md)  
   * [ThisBlog](./source/ThisBlog/contents.md)  
