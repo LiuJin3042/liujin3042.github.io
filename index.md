@@ -6,6 +6,7 @@
 
 ## [Git](./source/Git/contents.md)  
 
+  * 2019年10月27日: [使用guiscrcpy投屏](./source/Git/2019-10-27-使用guiscrcpy投屏.md)  
   * 2019年08月30日: [和fork来的仓库同步](./source/Git/2019-08-30-和fork来的仓库同步.md)  
   * 2019年08月25日: [git基础命令](./source/Git/2019-08-25-git基础命令.md)  
 
@@ -28,11 +29,11 @@
 
 ## [Network](./source/Network/contents.md)  
 
+  * 2019年10月26日: [ch7IP寻址](./source/Network/2019-10-26-ch7IP寻址.md)  
   * 2019年10月13日: [ch6网络层](./source/Network/2019-10-13-ch6网络层.md)  
   * 2019年09月28日: [ch5以太网](./source/Network/2019-09-28-ch5以太网.md)  
   * 2019年09月28日: [ch4网络访问](./source/Network/2019-09-28-ch4网络访问.md)  
   * 2019年09月28日: [ch3网络协议和通信](./source/Network/2019-09-28-ch3网络协议和通信.md)  
-  * 2019年09月21日: [ch2配置网络操作系统](./source/Network/2019-09-21-ch2配置网络操作系统.md)  
 
 ## [Python](./source/Python/contents.md)  
 
