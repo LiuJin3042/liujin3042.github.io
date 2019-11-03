@@ -29,11 +29,11 @@
 
 ## [Network](./source/Network/contents.md)  
 
+  * 2019年11月03日: [ch9传输层](./source/Network/2019-11-03-ch9传输层.md)  
+  * 2019年11月03日: [ch11构建小型网络](./source/Network/2019-11-03-ch11构建小型网络.md)  
+  * 2019年11月03日: [ch10应用层](./source/Network/2019-11-03-ch10应用层.md)  
+  * 2019年11月02日: [ch8划分子网](./source/Network/2019-11-02-ch8划分子网.md)  
   * 2019年10月26日: [ch7IP寻址](./source/Network/2019-10-26-ch7IP寻址.md)  
-  * 2019年10月13日: [ch6网络层](./source/Network/2019-10-13-ch6网络层.md)  
-  * 2019年09月28日: [ch5以太网](./source/Network/2019-09-28-ch5以太网.md)  
-  * 2019年09月28日: [ch4网络访问](./source/Network/2019-09-28-ch4网络访问.md)  
-  * 2019年09月28日: [ch3网络协议和通信](./source/Network/2019-09-28-ch3网络协议和通信.md)  
 
 ## [Python](./source/Python/contents.md)  
 
