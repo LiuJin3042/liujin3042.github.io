@@ -35,6 +35,11 @@
   * 2019年11月02日: [ch8划分子网](./source/Network/2019-11-02-ch8划分子网.md)  
   * 2019年10月26日: [ch7IP寻址](./source/Network/2019-10-26-ch7IP寻址.md)  
 
+## [oracle](./source/oracle/contents.md)  
+
+  * 2019年11月03日: [oracle工作环境](./source/oracle/2019-11-03-oracle工作环境.md)  
+  * 2019年11月03日: [oracle体系结构](./source/oracle/2019-11-03-oracle体系结构.md)  
+
 ## [Python](./source/Python/contents.md)  
 
   * 2019年08月26日: [用py查看目录下所有文件](./source/Python/2019-08-26-用py查看目录下所有文件.md)  
