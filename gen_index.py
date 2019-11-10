@@ -30,6 +30,8 @@ dir_3 = [] # 元素为parent_dir对象
 
 for sub_dir in dir_2: # 对每一个子目录遍历查找文件
     sub_files = os.listdir(dir_1 + '/' + sub_dir)
+    sub_files = sorted(sub_files)
+    sub_files.reverse()
     file_list = []
     for each_file in sub_files: # 从文件名(e.g. 2019-08-26-filename.md)中提取信息
         # 可以提取到年, 月, 日, 标题. 如果命名不规范就跳过.
@@ -39,7 +41,6 @@ for sub_dir in dir_2: # 对每一个子目录遍历查找文件
             title = title.replace('.md','') # 删去后缀名
             file = md_file(year,month,day,title,each_file)
             file_list.append(file)
-        file_list.reverse()
     dir_3.append(parent_dir(sub_dir,file_list))
     
 index_contents = [] # index.md的文件内容
@@ -62,10 +63,11 @@ for each_dir in dir_3:
                                            '](','./',\
                                            each_file.origin_title,')','  \n'])) 
     # 给网站主页添加内容           
-    index_contents.append(''.join(['## ','[',each_dir.dir_name,']','(',dir_1,'/',each_dir.dir_name,'/contents.md',')','  \n\n']))                              
+    index_contents.append(''.join(['## ','[',each_dir.dir_name,']','(',dir_1,'/',each_dir.dir_name,'/contents.md',')','  \n\n']))     
+
     # 只显示最近5条
     if file_list != [] and len(file_list) > 5:  
-        for each_file in file_list[0:4]:
+        for each_file in file_list[0:5]:
             index_contents.append(''.join([\
                                            '  * ',each_file.year,'年',\
                                            each_file.month,'月',\

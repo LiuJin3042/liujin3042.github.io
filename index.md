@@ -6,15 +6,17 @@
 
 ## [Git](./source/Git/contents.md)  
 
+  * 2019年10月27日: [使用guiscrcpy投屏](./source/Git/2019-10-27-使用guiscrcpy投屏.md)  
   * 2019年08月30日: [和fork来的仓库同步](./source/Git/2019-08-30-和fork来的仓库同步.md)  
   * 2019年08月25日: [git基础命令](./source/Git/2019-08-25-git基础命令.md)  
 
 ## [Linux](./source/Linux/contents.md)  
 
+  * 2019年09月17日: [后台运行python](./source/Linux/2019-09-17-后台运行python.md)  
   * 2019年09月03日: [shell脚本](./source/Linux/2019-09-03-shell脚本.md)  
+  * 2019年09月01日: [环境变量](./source/Linux/2019-09-01-环境变量.md)  
   * 2019年09月01日: [数据流](./source/Linux/2019-09-01-数据流.md)  
-  * 2019年08月31日: [bash变量设置](./source/Linux/2019-08-31-bash变量设置.md)  
-  * 2019年08月29日: [档案属性和用户配置](./source/Linux/2019-08-29-档案属性和用户配置.md)  
+  * 2019年09月01日: [shell快捷键](./source/Linux/2019-09-01-shell快捷键.md)  
 
 ## [Markdown](./source/Markdown/contents.md)  
 
@@ -22,15 +24,21 @@
 
 ## [MySQL](./source/MySQL/contents.md)  
 
-  * 2019年09月28日: [Mysql基本操作](./source/MySQL/2019-09-28-Mysql基本操作.md)  
   * 2019年09月28日: [Mysql简介](./source/MySQL/2019-09-28-Mysql简介.md)  
+  * 2019年09月28日: [Mysql基本操作](./source/MySQL/2019-09-28-Mysql基本操作.md)  
 
 ## [Network](./source/Network/contents.md)  
 
-  * 2019年09月21日: [ch1初识网络](./source/Network/2019-09-21-ch1初识网络.md)  
-  * 2019年09月21日: [ch2配置网络操作系统](./source/Network/2019-09-21-ch2配置网络操作系统.md)  
-  * 2019年09月28日: [ch3网络协议和通信](./source/Network/2019-09-28-ch3网络协议和通信.md)  
-  * 2019年09月28日: [ch4网络访问](./source/Network/2019-09-28-ch4网络访问.md)  
+  * 2019年11月03日: [ch9传输层](./source/Network/2019-11-03-ch9传输层.md)  
+  * 2019年11月03日: [ch11构建小型网络](./source/Network/2019-11-03-ch11构建小型网络.md)  
+  * 2019年11月03日: [ch10应用层](./source/Network/2019-11-03-ch10应用层.md)  
+  * 2019年11月02日: [ch8划分子网](./source/Network/2019-11-02-ch8划分子网.md)  
+  * 2019年10月26日: [ch7IP寻址](./source/Network/2019-10-26-ch7IP寻址.md)  
+
+## [oracle](./source/oracle/contents.md)  
+
+  * 2019年11月03日: [oracle工作环境](./source/oracle/2019-11-03-oracle工作环境.md)  
+  * 2019年11月03日: [oracle体系结构](./source/oracle/2019-11-03-oracle体系结构.md)  
 
 ## [Python](./source/Python/contents.md)  
 
