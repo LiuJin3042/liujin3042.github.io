@@ -37,6 +37,8 @@
 
 ## [oracle](./source/oracle/contents.md)  
 
+  * 2019年11月10日: [启动数据库](./source/oracle/2019-11-10-启动数据库.md)  
+  * 2019年11月10日: [oracle文本插件](./source/oracle/2019-11-10-oracle文本插件.md)  
   * 2019年11月03日: [oracle工作环境](./source/oracle/2019-11-03-oracle工作环境.md)  
   * 2019年11月03日: [oracle体系结构](./source/oracle/2019-11-03-oracle体系结构.md)  
 
