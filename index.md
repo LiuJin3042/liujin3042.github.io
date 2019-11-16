@@ -6,6 +6,7 @@
 
 ## [Git](./source/Git/contents.md)  
 
+  * 2019年11月10日: [在github端fork远程同步](./source/Git/2019-11-10-在github端fork远程同步.md)  
   * 2019年10月27日: [使用guiscrcpy投屏](./source/Git/2019-10-27-使用guiscrcpy投屏.md)  
   * 2019年08月30日: [和fork来的仓库同步](./source/Git/2019-08-30-和fork来的仓库同步.md)  
   * 2019年08月25日: [git基础命令](./source/Git/2019-08-25-git基础命令.md)  
@@ -37,12 +38,11 @@
 
 ## [oracle](./source/oracle/contents.md)  
 
-  * 2019年11月10日: [oracle文本插件](./source/oracle/2019-11-10-oracle文本插件.md)  
-  * 2019年11月10日: [oracle客户端配置](./source/oracle/2019-11-10-oracle客户端配置.md)  
+  * 2019年11月16日: [oracle安装示例数据库](./source/oracle/2019-11-16-oracle安装示例数据库.md)  
   * 2019年11月10日: [启动数据库](./source/oracle/2019-11-10-启动数据库.md)  
   * 2019年11月10日: [oracle文本插件](./source/oracle/2019-11-10-oracle文本插件.md)  
+  * 2019年11月10日: [oracle客户端配置](./source/oracle/2019-11-10-oracle客户端配置.md)  
   * 2019年11月03日: [oracle工作环境](./source/oracle/2019-11-03-oracle工作环境.md)  
-  * 2019年11月03日: [oracle体系结构](./source/oracle/2019-11-03-oracle体系结构.md)  
 
 ## [Python](./source/Python/contents.md)  
 
