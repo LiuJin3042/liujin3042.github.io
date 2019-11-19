@@ -10,6 +10,7 @@
 
 ## [CiscoNetwork-2学期](./source/CiscoNetwork-2学期/contents.md)  
 
+  * 2019年11月18日: [ch07访问控制列表](./source/CiscoNetwork-2学期/2019-11-18-ch07访问控制列表.md)  
   * 2019年11月16日: [ch06VLAN](./source/CiscoNetwork-2学期/2019-11-16-ch06VLAN.md)  
   * 2019年11月10日: [ch04交换机](./source/CiscoNetwork-2学期/2019-11-10-ch04交换机.md)  
   * 2019年11月10日: [ch03动态路由协议](./source/CiscoNetwork-2学期/2019-11-10-ch03动态路由协议.md)  
@@ -65,4 +66,8 @@
 ## [影评](./source/影评/contents.md)  
 
   * 2019年08月30日: [上海堡垒的细节(槽点)](./source/影评/2019-08-30-上海堡垒的细节(槽点).md)  
+
+## [配置深度学习环境踩坑](./source/配置深度学习环境踩坑/contents.md)  
+
+  * 2019年11月16日: [pycharm无法运行调出console](./source/配置深度学习环境踩坑/2019-11-16-pycharm无法运行调出console.md)  
 
