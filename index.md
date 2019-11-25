@@ -10,6 +10,7 @@
 
 ## [CiscoNetwork-2学期](./source/CiscoNetwork-2学期/contents.md)  
 
+  * 2019年11月23日: [ch10设备发现，管理，维护](./source/CiscoNetwork-2学期/2019-11-23-ch10设备发现，管理，维护.md)  
   * 2019年11月18日: [ch07访问控制列表](./source/CiscoNetwork-2学期/2019-11-18-ch07访问控制列表.md)  
   * 2019年11月16日: [ch06VLAN](./source/CiscoNetwork-2学期/2019-11-16-ch06VLAN.md)  
   * 2019年11月10日: [ch04交换机](./source/CiscoNetwork-2学期/2019-11-10-ch04交换机.md)  
@@ -22,10 +23,10 @@
 ## [Git](./source/Git/contents.md)  
 
   * 2019年11月23日: [unable to autodetect email address解决方法](./source/Git/2019-11-23-unable to autodetect email address解决方法.md)  
+  * 2019年11月23日: [github_desktop的gui界面简单操作](./source/Git/2019-11-23-github_desktop的gui界面简单操作.md)  
   * 2019年11月10日: [在github端fork远程同步](./source/Git/2019-11-10-在github端fork远程同步.md)  
   * 2019年10月27日: [使用guiscrcpy投屏](./source/Git/2019-10-27-使用guiscrcpy投屏.md)  
   * 2019年08月30日: [和fork来的仓库同步](./source/Git/2019-08-30-和fork来的仓库同步.md)  
-  * 2019年08月25日: [git基础命令](./source/Git/2019-08-25-git基础命令.md)  
 
 ## [Linux](./source/Linux/contents.md)  
 
@@ -41,6 +42,7 @@
 
 ## [Matlab](./source/Matlab/contents.md)  
 
+  * 2019年11月25日: [画三维图](./source/Matlab/2019-11-25-画三维图.md)  
   * 2019年11月18日: [plot作图](./source/Matlab/2019-11-18-plot作图.md)  
 
 ## [MySQL](./source/MySQL/contents.md)  
