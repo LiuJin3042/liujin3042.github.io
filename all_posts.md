@@ -11,4 +11,4 @@
   * [Python](./source/Python/contents.md)  
   * [ThisBlog](./source/ThisBlog/contents.md)  
   * [影评](./source/影评/contents.md)  
-  * [配置深度学习环境踩坑](./source/配置深度学习环境踩坑/contents.md)  
+  * [配置深度学习环境大作战](./source/配置深度学习环境大作战/contents.md)  
