@@ -2,21 +2,22 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>CCNA-2/2019-12-03-ch02静态路由 | OUR Blog</title>
+  <title>2019-11-16-ch06VLAN | OUR Blog</title>
   <meta name="keywords" content="">
-  <meta name="description" content="CCNA-2/2019-12-03-ch02静态路由 | OUR Blog">
+  <meta name="description" content="2019-11-16-ch06VLAN | OUR Blog">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<meta name="description" content="静态路由静态路由的原因  只能手动配置, 不会通告, 安全 带宽少  缺点  费时 易错 需要手动维护 大型网络难  静态路由的AD值为1, 优先级高于动态获取的路由. 在末节网络, 不会增长的网络, 单一出口的网络上使用动态路由 其他的作用  把多个连续网络汇总为一个静态路由 主链路发生故障, 创建备份路由.  实施静态路由静态路由类型 标准: 普通的静态路由  默认: 数据包和其他路由条目不匹">
+<meta name="description" content="ch7PT实践  ArtBldg! 初始化配置 en conf t host ArtBldg no ip domain-lookup enable secret cisco line cons 0 pass cisco login line vty 0 15 pass cisco login exit ser pass banner motd &amp;#39;fuck you&amp;#39;  ! 配置vla">
 <meta property="og:type" content="article">
-<meta property="og:title" content="CCNA-2&#x2F;2019-12-03-ch02静态路由">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;03&#x2F;CCNA-2&#x2F;2019-12-03-ch02%E9%9D%99%E6%80%81%E8%B7%AF%E7%94%B1&#x2F;index.html">
+<meta property="og:title" content="CCNA-2&#x2F;2019-12-06-ch07 PT实践">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;04&#x2F;CCNA-2&#x2F;2019-12-06-ch07%20PT%E5%AE%9E%E8%B7%B5&#x2F;index.html">
 <meta property="og:site_name" content="OUR Blog">
-<meta property="og:description" content="静态路由静态路由的原因  只能手动配置, 不会通告, 安全 带宽少  缺点  费时 易错 需要手动维护 大型网络难  静态路由的AD值为1, 优先级高于动态获取的路由. 在末节网络, 不会增长的网络, 单一出口的网络上使用动态路由 其他的作用  把多个连续网络汇总为一个静态路由 主链路发生故障, 创建备份路由.  实施静态路由静态路由类型 标准: 普通的静态路由  默认: 数据包和其他路由条目不匹">
+<meta property="og:description" content="ch7PT实践  ArtBldg! 初始化配置 en conf t host ArtBldg no ip domain-lookup enable secret cisco line cons 0 pass cisco login line vty 0 15 pass cisco login exit ser pass banner motd &amp;#39;fuck you&amp;#39;  ! 配置vla">
 <meta property="og:locale" content="en">
-<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;03&#x2F;CCNA-2&#x2F;2019-12-03-ch02%E9%9D%99%E6%80%81%E8%B7%AF%E7%94%B1&#x2F;image-20191203191135266.png">
-<meta property="og:updated_time" content="2019-12-03T12:32:50.680Z">
+<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;04&#x2F;CCNA-2&#x2F;2019-12-06-ch07%20PT%E5%AE%9E%E8%B7%B5&#x2F;C:%5CUsers%5Clj%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20191204200755847.png">
+<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;04&#x2F;CCNA-2&#x2F;2019-12-06-ch07%20PT%E5%AE%9E%E8%B7%B5&#x2F;image-20191204221510104.png">
+<meta property="og:updated_time" content="2019-12-05T23:40:44.248Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;03&#x2F;CCNA-2&#x2F;2019-12-03-ch02%E9%9D%99%E6%80%81%E8%B7%AF%E7%94%B1&#x2F;image-20191203191135266.png">
+<meta name="twitter:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;04&#x2F;CCNA-2&#x2F;2019-12-06-ch07%20PT%E5%AE%9E%E8%B7%B5&#x2F;C:%5CUsers%5Clj%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20191204200755847.png">
 
 
 <link rel="icon" href="/img/avatar.jpg">
@@ -117,11 +118,11 @@
 
 
 <ul>
-    <li><div class="all active">全部文章<small>(60)</small></div></li>
+    <li><div class="all active">全部文章<small>(58)</small></div></li>
     
         
             
-            <li><div data-rel="CCNA-2">CCNA-2<small>(13)</small></div>
+            <li><div data-rel="CCNA-2">CCNA-2<small>(11)</small></div>
                 
             </li>
             
@@ -233,7 +234,7 @@
     </div>
     <div></div>
 </div>
-<input type="hidden" id="yelog_site_posts_number" value="60">
+<input type="hidden" id="yelog_site_posts_number" value="58">
 
 <div style="display: none">
     <span id="busuanzi_value_site_uv"></span>
@@ -282,91 +283,11 @@
     <nav id="title-list-nav">
         
         <a  class="CCNA-2 "
-           href="/2019/11/26/CCNA-2/2019-11-10-ch03pt%E5%AE%9E%E8%B7%B5/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="2019-11-10-ch03pt实践">2019-11-10-ch03pt实践</span>
-            <span class="post-date" title="2019-11-26 18:09:55">2019/11/26</span>
-        </a>
-        
-        <a  class="CCNA-2 "
-           href="/2019/11/20/CCNA-2/2019-11-16-ch06VLAN/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="2019-11-16-ch06VLAN">2019-11-16-ch06VLAN</span>
-            <span class="post-date" title="2019-11-20 08:56:11">2019/11/20</span>
-        </a>
-        
-        <a  class="CCNA-2 "
-           href="/2019/11/20/CCNA-2/2019-11-10-ch04%E4%BA%A4%E6%8D%A2%E7%BD%91%E7%BB%9C/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="2019-11-10-ch04交换网络">2019-11-10-ch04交换网络</span>
-            <span class="post-date" title="2019-11-20 08:56:11">2019/11/20</span>
-        </a>
-        
-        <a  class="CCNA-2 "
-           href="/2019/11/20/CCNA-2/2019-11-18-ch07%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6%E5%88%97%E8%A1%A8/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="2019-11-18-ch07访问控制列表">2019-11-18-ch07访问控制列表</span>
-            <span class="post-date" title="2019-11-20 08:56:11">2019/11/20</span>
-        </a>
-        
-        <a  class="CCNA-2 "
-           href="/2019/11/25/CCNA-2/2019-11-24-RSE_C2_PT%20/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="2019-11-24-RSE_C2_PT">2019-11-24-RSE_C2_PT</span>
-            <span class="post-date" title="2019-11-25 09:02:54">2019/11/25</span>
-        </a>
-        
-        <a  class="CCNA-2 "
-           href="/2019/11/23/CCNA-2/2019-11-23-ch10%E8%AE%BE%E5%A4%87%E5%8F%91%E7%8E%B0%EF%BC%8C%E7%AE%A1%E7%90%86%EF%BC%8C%E7%BB%B4%E6%8A%A4/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="2019-11-23-ch10设备发现，管理，维护">2019-11-23-ch10设备发现，管理，维护</span>
-            <span class="post-date" title="2019-11-23 15:05:23">2019/11/23</span>
-        </a>
-        
-        <a  class="CCNA-2 "
-           href="/2019/11/26/CCNA-2/2019-11-26-ch05%E4%BA%A4%E6%8D%A2%E6%9C%BA%E9%85%8D%E7%BD%AE/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="2019-11-26-ch05交换机配置">2019-11-26-ch05交换机配置</span>
-            <span class="post-date" title="2019-11-26 14:33:22">2019/11/26</span>
-        </a>
-        
-        <a  class="CCNA-2 "
-           href="/2019/11/28/CCNA-2/2019-11-25-ch03%E5%8A%A8%E6%80%81%E8%B7%AF%E7%94%B1/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="2019-11-25-ch03动态路由">2019-11-25-ch03动态路由</span>
-            <span class="post-date" title="2019-11-28 22:10:14">2019/11/28</span>
-        </a>
-        
-        <a  class="CCNA-2 "
            href="/2019/11/28/CCNA-2/2019-11-28-ch09%20IPv4%20NAT/"
            data-tag=""
            data-author="" >
             <span class="post-title" title="2019-11-28-ch09 IPv4 NAT">2019-11-28-ch09 IPv4 NAT</span>
             <span class="post-date" title="2019-11-28 22:13:55">2019/11/28</span>
-        </a>
-        
-        <a  class="CCNA-2 "
-           href="/2019/12/03/CCNA-2/2019-12-03-ch02%E9%9D%99%E6%80%81%E8%B7%AF%E7%94%B1/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="CCNA-2/2019-12-03-ch02静态路由">CCNA-2/2019-12-03-ch02静态路由</span>
-            <span class="post-date" title="2019-12-03 19:00:07">2019/12/03</span>
-        </a>
-        
-        <a  class="CCNA-2 "
-           href="/2019/11/26/CCNA-2/RSE_C2_PT%20/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="RSE_C2_PT">RSE_C2_PT</span>
-            <span class="post-date" title="2019-11-26 18:09:55">2019/11/26</span>
         </a>
         
         <a  class="Echarts "
@@ -746,19 +667,83 @@
         </a>
         
         <a  class="CCNA-2 "
-           href="/2019/12/04/CCNA-2/2019-12-04-ch08DHCP/"
-           data-tag="DHCP"
+           href="/2019/11/26/CCNA-2/2019-11-10-ch03%20pt%E5%AE%9E%E8%B7%B5/"
+           data-tag=""
            data-author="" >
-            <span class="post-title" title="CCNA-2/2019-12-04-ch08DHCP">CCNA-2/2019-12-04-ch08DHCP</span>
-            <span class="post-date" title="2019-12-04 15:45:15">2019/12/04</span>
+            <span class="post-title" title="2019-11-10-ch03pt实践">2019-11-10-ch03pt实践</span>
+            <span class="post-date" title="2019-11-26 18:09:55">2019/11/26</span>
         </a>
         
         <a  class="CCNA-2 "
-           href="/2019/12/04/CCNA-2/ch7PT%E5%AE%9E%E8%B7%B5/"
+           href="/2019/11/20/CCNA-2/2019-11-10-ch04%20%E4%BA%A4%E6%8D%A2%E7%BD%91%E7%BB%9C/"
            data-tag=""
            data-author="" >
-            <span class="post-title" title="CCNA-2/ch7PT实践">CCNA-2/ch7PT实践</span>
+            <span class="post-title" title="2019-11-10-ch04交换网络">2019-11-10-ch04交换网络</span>
+            <span class="post-date" title="2019-11-20 08:56:11">2019/11/20</span>
+        </a>
+        
+        <a  class="CCNA-2 "
+           href="/2019/11/20/CCNA-2/2019-11-18-ch07%20%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6%E5%88%97%E8%A1%A8/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="2019-11-18-ch07访问控制列表">2019-11-18-ch07访问控制列表</span>
+            <span class="post-date" title="2019-11-20 08:56:11">2019/11/20</span>
+        </a>
+        
+        <a  class="CCNA-2 "
+           href="/2019/11/26/CCNA-2/2019-11-26-ch05%20%E4%BA%A4%E6%8D%A2%E6%9C%BA%E9%85%8D%E7%BD%AE/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="2019-11-26-ch05交换机配置">2019-11-26-ch05交换机配置</span>
+            <span class="post-date" title="2019-11-26 14:33:22">2019/11/26</span>
+        </a>
+        
+        <a  class="CCNA-2 "
+           href="/2019/11/28/CCNA-2/2019-11-25-ch03%20%E5%8A%A8%E6%80%81%E8%B7%AF%E7%94%B1/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="2019-11-25-ch03动态路由">2019-11-25-ch03动态路由</span>
+            <span class="post-date" title="2019-11-28 22:10:14">2019/11/28</span>
+        </a>
+        
+        <a  class="CCNA-2 "
+           href="/2019/11/23/CCNA-2/2019-11-23-ch10%20%E8%AE%BE%E5%A4%87%E5%8F%91%E7%8E%B0%EF%BC%8C%E7%AE%A1%E7%90%86%EF%BC%8C%E7%BB%B4%E6%8A%A4/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="2019-11-23-ch10设备发现，管理，维护">2019-11-23-ch10设备发现，管理，维护</span>
+            <span class="post-date" title="2019-11-23 15:05:23">2019/11/23</span>
+        </a>
+        
+        <a  class="CCNA-2 "
+           href="/2019/11/20/CCNA-2/2019-11-16-ch06%20VLAN/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="2019-11-16-ch06VLAN">2019-11-16-ch06VLAN</span>
+            <span class="post-date" title="2019-11-20 08:56:11">2019/11/20</span>
+        </a>
+        
+        <a  class="CCNA-2 "
+           href="/2019/12/03/CCNA-2/2019-12-03-ch02%20%E9%9D%99%E6%80%81%E8%B7%AF%E7%94%B1/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="CCNA-2/2019-12-03-ch02 静态路由">CCNA-2/2019-12-03-ch02 静态路由</span>
+            <span class="post-date" title="2019-12-03 19:00:07">2019/12/03</span>
+        </a>
+        
+        <a  class="CCNA-2 "
+           href="/2019/12/04/CCNA-2/2019-12-06-ch07%20PT%E5%AE%9E%E8%B7%B5/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="CCNA-2/2019-12-06-ch07 PT实践">CCNA-2/2019-12-06-ch07 PT实践</span>
             <span class="post-date" title="2019-12-04 20:43:21">2019/12/04</span>
+        </a>
+        
+        <a  class="CCNA-2 "
+           href="/2019/12/04/CCNA-2/2019-12-04-ch08%20DHCP/"
+           data-tag="DHCP"
+           data-author="" >
+            <span class="post-title" title="CCNA-2/2019-12-04-ch08 DHCP">CCNA-2/2019-12-04-ch08 DHCP</span>
+            <span class="post-date" title="2019-12-04 15:45:15">2019/12/04</span>
         </a>
         
     </nav>
@@ -773,9 +758,9 @@
 </aside>
 <div class="post">
     <div class="pjax">
-        <article id="post-CCNA-2/2019-12-03-ch02静态路由" class="article article-type-post" itemscope itemprop="blogPost">
+        <article id="post-CCNA-2/2019-11-16-ch06 VLAN" class="article article-type-post" itemscope itemprop="blogPost">
     
-        <h1 class="article-title">CCNA-2/2019-12-03-ch02静态路由</h1>
+        <h1 class="article-title">2019-11-16-ch06VLAN</h1>
     
     <div class="article-meta">
         
@@ -791,7 +776,7 @@
     </div>
     <div class="article-meta">
         
-        创建时间:<time class="date" title='更新时间: 2019-12-03 20:32:50'>2019-12-03 19:00</time>
+        创建时间:<time class="date" title='更新时间: 2019-12-03 18:23:15'>2019-11-20 08:56</time>
         
     </div>
     <div class="article-meta">
@@ -824,7 +809,7 @@
     
     <div class="toc-ref">
     
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#静态路由"><span class="toc-text">静态路由</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#实施静态路由"><span class="toc-text">实施静态路由</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#静态路由类型"><span class="toc-text">静态路由类型</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#配置"><span class="toc-text">配置</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#IPv4静态路由"><span class="toc-text">IPv4静态路由</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#使用下一跳地址"><span class="toc-text">使用下一跳地址</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#直连静态路由"><span class="toc-text">直连静态路由</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#完全指定"><span class="toc-text">完全指定</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#验证路由表"><span class="toc-text">验证路由表</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#默认静态路由"><span class="toc-text">默认静态路由</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#IPv6静态路由"><span class="toc-text">IPv6静态路由</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#验证"><span class="toc-text">验证</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#动态路由管理距离"><span class="toc-text">动态路由管理距离</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#IPv4-6浮动路由"><span class="toc-text">IPv4/6浮动路由</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#配置静态主机路由"><span class="toc-text">配置静态主机路由</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#故障排除"><span class="toc-text">故障排除</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#路由故障类型"><span class="toc-text">路由故障类型</span></a></li></ol></li></ol></li></ol></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#VLAN"><span class="toc-text">VLAN</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#VLAN分段"><span class="toc-text">VLAN分段</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#为何使用VLAN"><span class="toc-text">为何使用VLAN</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#VLAN类型"><span class="toc-text">VLAN类型</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#多交换环境中的VLAN"><span class="toc-text">多交换环境中的VLAN</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#VLAN中继"><span class="toc-text">VLAN中继</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#标记以太网帧识别VLAN"><span class="toc-text">标记以太网帧识别VLAN</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#本征VLAN"><span class="toc-text">本征VLAN</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#VLAN实施情况"><span class="toc-text">VLAN实施情况</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#VLAN分配"><span class="toc-text">VLAN分配</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#VLAN范围"><span class="toc-text">VLAN范围</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#创建VLAN"><span class="toc-text">创建VLAN</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#VLAN中继-1"><span class="toc-text">VLAN中继</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#vlan故障"><span class="toc-text">vlan故障</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#vlan间路由"><span class="toc-text">vlan间路由</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#传统vlan间路由"><span class="toc-text">传统vlan间路由</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#单臂路由"><span class="toc-text">单臂路由</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#配置单臂路由"><span class="toc-text">配置单臂路由</span></a></li></ol></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -840,97 +825,147 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="静态路由"><a href="#静态路由" class="headerlink" title="静态路由"></a>静态路由</h1><p>静态路由的原因</p>
+        <h1 id="VLAN"><a href="#VLAN" class="headerlink" title="VLAN"></a>VLAN</h1><h2 id="VLAN分段"><a href="#VLAN分段" class="headerlink" title="VLAN分段"></a>VLAN分段</h2><h3 id="为何使用VLAN"><a href="#为何使用VLAN" class="headerlink" title="为何使用VLAN"></a>为何使用VLAN</h3><ul>
+<li>通常, 一个交换机是一个网段, 多个交换机插在路由器上</li>
+<li>访问其他网段必须通过路由器. 路由器可以隔离广播, 因此广播无法到达其他网段.</li>
+<li>因此一个交换机称为一个广播域.</li>
+<li>但是有的时候, 我的网段有<strong>数十个</strong>, 但是路由器的接口却没有这么多, 或者我想在两台交换机上<strong>灵活分配</strong>网段,传统的方式就显得不足.</li>
+</ul>
+<p><strong>VLAN就是用来跨交换机构建局域网</strong>, 优势有: </p>
 <ul>
-<li>只能手动配置, 不会通告, 安全</li>
-<li>带宽少</li>
+<li>安全, 隔离用户</li>
+<li>降低成本, 提高性能, 减小广播域</li>
+<li>提高IT员工效率, 相似网络需求的员工可以共享一个VLAN</li>
+<li>简化项目管理, 无需为接线烦恼</li>
 </ul>
-<p>缺点</p>
+<h4 id="VLAN类型"><a href="#VLAN类型" class="headerlink" title="VLAN类型"></a>VLAN类型</h4><ul>
+<li>数据VLAN, 传输流量, 一般将语音流量, 管理流量, 数据流量分隔在不同VLAN上.</li>
+<li>默认VLAN, 交换机端口默认属于VLAN 1.</li>
+<li>本征VLAN, 链路部分收到了没有VLAN标签的数据, 就会加上本征VLAN标签.</li>
+<li>管理VLAN, 访问交换机管理功能. 默认是VLAN 1.</li>
+</ul>
+<h3 id="多交换环境中的VLAN"><a href="#多交换环境中的VLAN" class="headerlink" title="多交换环境中的VLAN"></a>多交换环境中的VLAN</h3><h4 id="VLAN中继"><a href="#VLAN中继" class="headerlink" title="VLAN中继"></a>VLAN中继</h4><ul>
+<li>两个交换机个有一些VLAN</li>
+<li>把两个交换机相同的VLAN连接起来的链路叫做中继, 中继网络又称为VLAN TRUNK, 像树干一样链接整个网络. 遵循IEEE 802.1Q协议</li>
+<li>广播域是同一个VLAN, 即使跨越了多个交换机.</li>
+</ul>
+<h4 id="标记以太网帧识别VLAN"><a href="#标记以太网帧识别VLAN" class="headerlink" title="标记以太网帧识别VLAN"></a>标记以太网帧识别VLAN</h4><p><img src="/2019/11/20/CCNA-2/2019-11-16-ch06%20VLAN/C:%5CUsers%5Clj%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20191116200256396.png" alt></p>
 <ul>
-<li>费时</li>
-<li>易错</li>
-<li>需要手动维护</li>
-<li>大型网络难</li>
+<li><p><strong>类型</strong> - 2 字节值，称为标记协议 ID (TPID) 值。对于以太网，它设置为十六进制 0x8100。   </p>
+</li>
+<li><p><strong>用户优先级</strong> - 3 位值，支持级别或服务实施。       </p>
+</li>
+<li><p><strong>规范格式标识符 (CFI)</strong> - 1 位标识符，便于在以太网链路上传输令牌环帧。</p>
+</li>
+<li><p><strong>VLAN ID (VID)</strong> - 12 位 VLAN 标识号，最多支持 4096 个 VLAN ID。</p>
+</li>
 </ul>
-<p>静态路由的AD值为1, 优先级高于动态获取的路由.</p>
-<p>在末节网络, 不会增长的网络, 单一出口的网络上使用动态路由</p>
-<p>其他的作用</p>
+<h4 id="本征VLAN"><a href="#本征VLAN" class="headerlink" title="本征VLAN"></a>本征VLAN</h4><ul>
+<li>接入TRUNK的无VLAN设备会被分配本征VLAN</li>
+<li>无VLAN设备的数据会被转发到本征VLAN中</li>
+</ul>
+<h2 id="VLAN实施情况"><a href="#VLAN实施情况" class="headerlink" title="VLAN实施情况"></a>VLAN实施情况</h2><h3 id="VLAN分配"><a href="#VLAN分配" class="headerlink" title="VLAN分配"></a>VLAN分配</h3><h4 id="VLAN范围"><a href="#VLAN范围" class="headerlink" title="VLAN范围"></a>VLAN范围</h4><ul>
+<li>1-1005<ul>
+<li>普通VLAN</li>
+<li>端口1, 1002-1005是自动创建的, 不可删除. 1002-1005是留给令牌和光纤分布式数据接口 (FDDI) VLAN 的.</li>
+<li>配置文件存放在flash中, 名为vlan.dat</li>
+<li>VLAN中继协议管理普通VLAN</li>
+</ul>
+</li>
+<li>1006-4096<ul>
+<li>扩展VLAN</li>
+<li>保存在running config里</li>
+</ul>
+</li>
+</ul>
+<h3 id="创建VLAN"><a href="#创建VLAN" class="headerlink" title="创建VLAN"></a>创建VLAN</h3><p>创建一个VLAN</p>
+<pre><code>conf t
+vlan 100
+name test
+end</code></pre><p>为VLAN分配端口</p>
+<pre><code>conf t
+inter f0/0
+switchport mode access // 设置为接入端口
+switchport access vlan 10
+end</code></pre><p>为多个端口分配vlan</p>
+<pre><code>inter range f0/1-15
+switchport mode access
+switchport access vlan 20 
+mls qos trust cos // 信任语音流量
+switchport access vlan 150
+end</code></pre><p><strong>通常一个端口只能分给一个vlan, 但是思科交换机可以为一个端口分给数据vlan和语音vlan</strong>. </p>
+<p>给端口分配两个vlan</p>
+<pre><code>inter f0/1
+switchport mode access
+switchport access vlan 20 
+mls qos trust cos // 信任语音流量
+switchport access vlan 150
+end</code></pre><p>查看vlan </p>
+<pre><code>show vlan name student
+show vlan summary
+show inter vlan 20
+show inter f0/18 switchport</code></pre><p>删除端口的vlan</p>
+<pre><code>inter f0/1
+no switchport access vlan
+end
+show vlan brief // 查看vlan信息, 其实查看的是vlan.dat文件
+show inter f0/18 switchport // 查看端口信息
+</code></pre><p>删除vlan</p>
+<pre><code>(config)# no vlan 20</code></pre><p>将交换机恢复为出厂设置</p>
+<pre><code>erase startup-config
+delete vlan.dat</code></pre><h3 id="VLAN中继-1"><a href="#VLAN中继-1" class="headerlink" title="VLAN中继"></a>VLAN中继</h3><ul>
+<li><p>配置中继端口</p>
+<pre><code>inter f0/19
+switchport mode trunk
+switchport trunk native vlan 99
+switchport trunk allowed vlan 20,18
+end</code></pre></li>
+<li><p>重置端口</p>
+<pre><code>inter f0/19
+switchport mode trunk
+no switchport trunk allowed vlan
+switchport trunk native vlan 
+end</code></pre></li>
+</ul>
+<h3 id="vlan故障"><a href="#vlan故障" class="headerlink" title="vlan故障"></a>vlan故障</h3><ul>
+<li><p>vlan中子网不同将无法通信</p>
+</li>
+<li><p>vlan配置错误, 检查</p>
 <ul>
-<li>把多个连续网络汇总为一个静态路由</li>
-<li>主链路发生故障, 创建备份路由.</li>
+<li>vlan正确了吗</li>
+<li>vlan是否已被删除</li>
 </ul>
-<h2 id="实施静态路由"><a href="#实施静态路由" class="headerlink" title="实施静态路由"></a>实施静态路由</h2><h3 id="静态路由类型"><a href="#静态路由类型" class="headerlink" title="静态路由类型"></a>静态路由类型</h3><ul>
-<li><p>标准: 普通的静态路由</p>
 </li>
-<li><p>默认: 数据包和其他路由条目不匹配的时候, 采用默认静态路由. 常用在连到ISP的端口上.</p>
+<li><p>中继错误</p>
 <ul>
-<li>0.0.0.0/0</li>
-<li>如果一台路由器仅有另一台路由器与之相连, 称为末节路由器</li>
+<li>本征vlan是否一致</li>
+<li>是否开启了trunk链路</li>
+<li>vlan是否被允许通过链路</li>
 </ul>
 </li>
-<li><p>汇总: 多条静态路由可以汇总表示为一条</p>
-<ul>
-<li>目标网络连续, 在同一个送出接口上</li>
 </ul>
-<p><img src="/2019/12/03/CCNA-2/2019-12-03-ch02%E9%9D%99%E6%80%81%E8%B7%AF%E7%94%B1/image-20191203191135266.png" alt="image-20191203191135266"></p>
-</li>
-<li><p>浮动: 提供备份, 仅在主路不可用的时候启用. AD比主路要大.</p>
-</li>
+<h2 id="vlan间路由"><a href="#vlan间路由" class="headerlink" title="vlan间路由"></a>vlan间路由</h2><h3 id="传统vlan间路由"><a href="#传统vlan间路由" class="headerlink" title="传统vlan间路由"></a>传统vlan间路由</h3><ul>
+<li>每一个vlan都要求接入路由器的一个接口</li>
+<li>和不同交换机接入路由器无异</li>
 </ul>
-<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><h3 id="IPv4静态路由"><a href="#IPv4静态路由" class="headerlink" title="IPv4静态路由"></a>IPv4静态路由</h3><pre><code>ip route 目标地址 子网掩码 {下一跳地址 或 送出接口} 管理距离
-show ip route</code></pre><h4 id="使用下一跳地址"><a href="#使用下一跳地址" class="headerlink" title="使用下一跳地址"></a>使用下一跳地址</h4><pre><code>ip route 172.16.1.0 255.255.255.0 172.16.2.2
-no ip route 172.16.1.0 255.255.255.0 172.16.2.2 // 取消配置</code></pre><ol>
-<li><p>首先得知下一跳的地址是172.16.2.2</p>
-</li>
-<li><p>在路由表中搜索如何到达下一跳</p>
-</li>
-<li><p>到达下一跳, 路由器要搜索两次路由表</p>
-</li>
-<li><p>这就是递归查询, 要避免</p>
-</li>
-<li><p>默认开启的思科快速转发, 可以避免递归查找. 应当使用下一跳地址作为静态路由</p>
-</li>
-</ol>
-<h4 id="直连静态路由"><a href="#直连静态路由" class="headerlink" title="直连静态路由"></a>直连静态路由</h4><pre><code>ip route 172.16.1.0 255.255.255.0 s0/0/0</code></pre><blockquote>
-<p>对于点对点接口，您可以使用指向退出接口或下一跳地址的静态路由。对于多点/广播接口，更适合采用指向下一跳地址的静态路由。</p>
-</blockquote>
-<p>但是如果接口上连接了多个设备, 路由器不知道应该去哪个设备, 就无法发送数据包.</p>
-<h4 id="完全指定"><a href="#完全指定" class="headerlink" title="完全指定"></a>完全指定</h4><p>当退出接口是多路访问接口时</p>
-<pre><code>ip route 192.168.2.0 255.255.255.0 g0/1 </code></pre><h4 id="验证路由表"><a href="#验证路由表" class="headerlink" title="验证路由表"></a>验证路由表</h4><pre><code>show ip route
-show ip route static
-show ip route 192.168.2.1</code></pre><h4 id="默认静态路由"><a href="#默认静态路由" class="headerlink" title="默认静态路由"></a>默认静态路由</h4><pre><code>ip route 0.0.0.0 0.0.0.0 下一跳 传出端口</code></pre><h3 id="IPv6静态路由"><a href="#IPv6静态路由" class="headerlink" title="IPv6静态路由"></a>IPv6静态路由</h3><pre><code>ipv6 route 目标地址/前缀长度 {下一跳 或 传出端口}
-ipv6 route ::/0 {下一跳 或 传出端口}</code></pre><p>其他规则与IPv4相同</p>
-<h4 id="验证"><a href="#验证" class="headerlink" title="验证"></a>验证</h4><pre><code>show ipv6 route
-show ipv6 route static
-show ipv6 route 2001:DB8:ACAD:3::</code></pre><h3 id="动态路由管理距离"><a href="#动态路由管理距离" class="headerlink" title="动态路由管理距离"></a>动态路由管理距离</h3><p>静态是1, 动态为</p>
-<ul>
-<li>EIGRP: 90</li>
-<li>IGRP: 100</li>
-<li>OSPF: 110</li>
-<li>IS-IS: 115</li>
-<li>RIP: 200</li>
+<h3 id="单臂路由"><a href="#单臂路由" class="headerlink" title="单臂路由"></a>单臂路由</h3><ul>
+<li>只需要接入路由器一个接口</li>
+<li>在路由器上也配置支持vlan</li>
 </ul>
-<h4 id="IPv4-6浮动路由"><a href="#IPv4-6浮动路由" class="headerlink" title="IPv4/6浮动路由"></a>IPv4/6浮动路由</h4><pre><code>ip route 0.0.0.0 0.0.0.0 172.16.2.2 // AD=1
-ip route 0.0.0.0 0.0.0.0 10.10.10.2 5 // AD=5</code></pre><h3 id="配置静态主机路由"><a href="#配置静态主机路由" class="headerlink" title="配置静态主机路由"></a>配置静态主机路由</h3><p>主机路由/本地路由, 如果数据包是送往路由器端口, 确保路由器会接收而不是路由出去. 简写为L.</p>
-<p>一般都是在创建端口IP地址的时候自动分配的.</p>
-<ul>
-<li><p>配置静态主机路由</p>
-<p>让路由直接把流量转发到特定的设备上. 子网掩码配成<code>255.255.255.255</code>即可.</p>
-</li>
-</ul>
-<h2 id="故障排除"><a href="#故障排除" class="headerlink" title="故障排除"></a>故障排除</h2><h4 id="路由故障类型"><a href="#路由故障类型" class="headerlink" title="路由故障类型"></a>路由故障类型</h4><ul>
-<li>接口故障</li>
-<li>与ISP断开连接</li>
-<li>链路饱和</li>
-<li>管理员输入配置错误</li>
-</ul>
-<p>常用工具</p>
-<ul>
-<li><code>ping [ip] source [端口]</code></li>
-<li><code>traceroute</code></li>
-<li><code>show ip route</code></li>
-<li><code>show ip inter brief</code></li>
-<li><code>show cdp neighbours detail</code></li>
+<h2 id="配置单臂路由"><a href="#配置单臂路由" class="headerlink" title="配置单臂路由"></a>配置单臂路由</h2><ul>
+<li><p>在路由器上</p>
+<pre><code>inter g0/0.10 // 为g0/0创建子接口.10(可以任意, 一般与vlan相等), 在这个子接口上配置vlan 10
+encapsulation dot1q 10 // 在这个端口中删除vlan 10
+ip addr 172.17.10.1 255.255.255.0
+inter g0/0.30
+encapsulation dot1q 30 // 在这个端口中删除vlan 30
+ip addr 172.17.30.1 255.255.255.0
+exit
+inter g0/0
+no shut //开启所有子接口</code></pre></li>
+<li><p>验证vlan</p>
+<pre><code>show vlan
+show ip route</code></pre></li>
 </ul>
 
       

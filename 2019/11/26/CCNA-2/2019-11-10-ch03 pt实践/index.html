@@ -2,21 +2,22 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>CCNA-2/2019-12-04-ch08DHCP | OUR Blog</title>
-  <meta name="keywords" content=" DHCP ">
-  <meta name="description" content="CCNA-2/2019-12-04-ch08DHCP | OUR Blog">
+  <title>2019-11-10-ch03pt实践 | OUR Blog</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="2019-11-10-ch03pt实践 | OUR Blog">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<meta name="description" content="静态路由静态路由的原因  只能手动配置, 不会通告, 安全 带宽少  缺点  费时 易错 需要手动维护 大型网络难  静态路由的AD值为1, 优先级高于动态获取的路由. 在末节网络, 不会增长的网络, 单一出口的网络上使用动态路由 其他的作用  把多个连续网络汇总为一个静态路由 主链路发生故障, 创建备份路由.  实施静态路由静态路由类型 标准: 普通的静态路由  默认: 数据包和其他路由条目不匹">
+<meta name="description" content="ch7PT实践  ArtBldg! 初始化配置 en conf t host ArtBldg no ip domain-lookup enable secret cisco line cons 0 pass cisco login line vty 0 15 pass cisco login exit ser pass banner motd &amp;#39;fuck you&amp;#39;  ! 配置vla">
 <meta property="og:type" content="article">
-<meta property="og:title" content="CCNA-2&#x2F;2019-12-03-ch02静态路由">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;03&#x2F;CCNA-2&#x2F;2019-12-03-ch02%E9%9D%99%E6%80%81%E8%B7%AF%E7%94%B1&#x2F;index.html">
+<meta property="og:title" content="CCNA-2&#x2F;2019-12-06-ch07 PT实践">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;04&#x2F;CCNA-2&#x2F;2019-12-06-ch07%20PT%E5%AE%9E%E8%B7%B5&#x2F;index.html">
 <meta property="og:site_name" content="OUR Blog">
-<meta property="og:description" content="静态路由静态路由的原因  只能手动配置, 不会通告, 安全 带宽少  缺点  费时 易错 需要手动维护 大型网络难  静态路由的AD值为1, 优先级高于动态获取的路由. 在末节网络, 不会增长的网络, 单一出口的网络上使用动态路由 其他的作用  把多个连续网络汇总为一个静态路由 主链路发生故障, 创建备份路由.  实施静态路由静态路由类型 标准: 普通的静态路由  默认: 数据包和其他路由条目不匹">
+<meta property="og:description" content="ch7PT实践  ArtBldg! 初始化配置 en conf t host ArtBldg no ip domain-lookup enable secret cisco line cons 0 pass cisco login line vty 0 15 pass cisco login exit ser pass banner motd &amp;#39;fuck you&amp;#39;  ! 配置vla">
 <meta property="og:locale" content="en">
-<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;03&#x2F;CCNA-2&#x2F;2019-12-03-ch02%E9%9D%99%E6%80%81%E8%B7%AF%E7%94%B1&#x2F;image-20191203191135266.png">
-<meta property="og:updated_time" content="2019-12-03T12:32:50.680Z">
+<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;04&#x2F;CCNA-2&#x2F;2019-12-06-ch07%20PT%E5%AE%9E%E8%B7%B5&#x2F;C:%5CUsers%5Clj%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20191204200755847.png">
+<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;04&#x2F;CCNA-2&#x2F;2019-12-06-ch07%20PT%E5%AE%9E%E8%B7%B5&#x2F;image-20191204221510104.png">
+<meta property="og:updated_time" content="2019-12-05T23:40:44.248Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;03&#x2F;CCNA-2&#x2F;2019-12-03-ch02%E9%9D%99%E6%80%81%E8%B7%AF%E7%94%B1&#x2F;image-20191203191135266.png">
+<meta name="twitter:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;04&#x2F;CCNA-2&#x2F;2019-12-06-ch07%20PT%E5%AE%9E%E8%B7%B5&#x2F;C:%5CUsers%5Clj%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20191204200755847.png">
 
 
 <link rel="icon" href="/img/avatar.jpg">
@@ -117,11 +118,11 @@
 
 
 <ul>
-    <li><div class="all active">全部文章<small>(60)</small></div></li>
+    <li><div class="all active">全部文章<small>(58)</small></div></li>
     
         
             
-            <li><div data-rel="CCNA-2">CCNA-2<small>(13)</small></div>
+            <li><div data-rel="CCNA-2">CCNA-2<small>(11)</small></div>
                 
             </li>
             
@@ -233,7 +234,7 @@
     </div>
     <div></div>
 </div>
-<input type="hidden" id="yelog_site_posts_number" value="60">
+<input type="hidden" id="yelog_site_posts_number" value="58">
 
 <div style="display: none">
     <span id="busuanzi_value_site_uv"></span>
@@ -282,91 +283,11 @@
     <nav id="title-list-nav">
         
         <a  class="CCNA-2 "
-           href="/2019/11/26/CCNA-2/2019-11-10-ch03pt%E5%AE%9E%E8%B7%B5/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="2019-11-10-ch03pt实践">2019-11-10-ch03pt实践</span>
-            <span class="post-date" title="2019-11-26 18:09:55">2019/11/26</span>
-        </a>
-        
-        <a  class="CCNA-2 "
-           href="/2019/11/20/CCNA-2/2019-11-16-ch06VLAN/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="2019-11-16-ch06VLAN">2019-11-16-ch06VLAN</span>
-            <span class="post-date" title="2019-11-20 08:56:11">2019/11/20</span>
-        </a>
-        
-        <a  class="CCNA-2 "
-           href="/2019/11/20/CCNA-2/2019-11-10-ch04%E4%BA%A4%E6%8D%A2%E7%BD%91%E7%BB%9C/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="2019-11-10-ch04交换网络">2019-11-10-ch04交换网络</span>
-            <span class="post-date" title="2019-11-20 08:56:11">2019/11/20</span>
-        </a>
-        
-        <a  class="CCNA-2 "
-           href="/2019/11/20/CCNA-2/2019-11-18-ch07%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6%E5%88%97%E8%A1%A8/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="2019-11-18-ch07访问控制列表">2019-11-18-ch07访问控制列表</span>
-            <span class="post-date" title="2019-11-20 08:56:11">2019/11/20</span>
-        </a>
-        
-        <a  class="CCNA-2 "
-           href="/2019/11/25/CCNA-2/2019-11-24-RSE_C2_PT%20/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="2019-11-24-RSE_C2_PT">2019-11-24-RSE_C2_PT</span>
-            <span class="post-date" title="2019-11-25 09:02:54">2019/11/25</span>
-        </a>
-        
-        <a  class="CCNA-2 "
-           href="/2019/11/23/CCNA-2/2019-11-23-ch10%E8%AE%BE%E5%A4%87%E5%8F%91%E7%8E%B0%EF%BC%8C%E7%AE%A1%E7%90%86%EF%BC%8C%E7%BB%B4%E6%8A%A4/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="2019-11-23-ch10设备发现，管理，维护">2019-11-23-ch10设备发现，管理，维护</span>
-            <span class="post-date" title="2019-11-23 15:05:23">2019/11/23</span>
-        </a>
-        
-        <a  class="CCNA-2 "
-           href="/2019/11/26/CCNA-2/2019-11-26-ch05%E4%BA%A4%E6%8D%A2%E6%9C%BA%E9%85%8D%E7%BD%AE/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="2019-11-26-ch05交换机配置">2019-11-26-ch05交换机配置</span>
-            <span class="post-date" title="2019-11-26 14:33:22">2019/11/26</span>
-        </a>
-        
-        <a  class="CCNA-2 "
-           href="/2019/11/28/CCNA-2/2019-11-25-ch03%E5%8A%A8%E6%80%81%E8%B7%AF%E7%94%B1/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="2019-11-25-ch03动态路由">2019-11-25-ch03动态路由</span>
-            <span class="post-date" title="2019-11-28 22:10:14">2019/11/28</span>
-        </a>
-        
-        <a  class="CCNA-2 "
            href="/2019/11/28/CCNA-2/2019-11-28-ch09%20IPv4%20NAT/"
            data-tag=""
            data-author="" >
             <span class="post-title" title="2019-11-28-ch09 IPv4 NAT">2019-11-28-ch09 IPv4 NAT</span>
             <span class="post-date" title="2019-11-28 22:13:55">2019/11/28</span>
-        </a>
-        
-        <a  class="CCNA-2 "
-           href="/2019/12/03/CCNA-2/2019-12-03-ch02%E9%9D%99%E6%80%81%E8%B7%AF%E7%94%B1/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="CCNA-2/2019-12-03-ch02静态路由">CCNA-2/2019-12-03-ch02静态路由</span>
-            <span class="post-date" title="2019-12-03 19:00:07">2019/12/03</span>
-        </a>
-        
-        <a  class="CCNA-2 "
-           href="/2019/11/26/CCNA-2/RSE_C2_PT%20/"
-           data-tag=""
-           data-author="" >
-            <span class="post-title" title="RSE_C2_PT">RSE_C2_PT</span>
-            <span class="post-date" title="2019-11-26 18:09:55">2019/11/26</span>
         </a>
         
         <a  class="Echarts "
@@ -746,19 +667,83 @@
         </a>
         
         <a  class="CCNA-2 "
-           href="/2019/12/04/CCNA-2/2019-12-04-ch08DHCP/"
-           data-tag="DHCP"
+           href="/2019/11/26/CCNA-2/2019-11-10-ch03%20pt%E5%AE%9E%E8%B7%B5/"
+           data-tag=""
            data-author="" >
-            <span class="post-title" title="CCNA-2/2019-12-04-ch08DHCP">CCNA-2/2019-12-04-ch08DHCP</span>
-            <span class="post-date" title="2019-12-04 15:45:15">2019/12/04</span>
+            <span class="post-title" title="2019-11-10-ch03pt实践">2019-11-10-ch03pt实践</span>
+            <span class="post-date" title="2019-11-26 18:09:55">2019/11/26</span>
         </a>
         
         <a  class="CCNA-2 "
-           href="/2019/12/04/CCNA-2/ch7PT%E5%AE%9E%E8%B7%B5/"
+           href="/2019/11/20/CCNA-2/2019-11-10-ch04%20%E4%BA%A4%E6%8D%A2%E7%BD%91%E7%BB%9C/"
            data-tag=""
            data-author="" >
-            <span class="post-title" title="CCNA-2/ch7PT实践">CCNA-2/ch7PT实践</span>
+            <span class="post-title" title="2019-11-10-ch04交换网络">2019-11-10-ch04交换网络</span>
+            <span class="post-date" title="2019-11-20 08:56:11">2019/11/20</span>
+        </a>
+        
+        <a  class="CCNA-2 "
+           href="/2019/11/20/CCNA-2/2019-11-18-ch07%20%E8%AE%BF%E9%97%AE%E6%8E%A7%E5%88%B6%E5%88%97%E8%A1%A8/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="2019-11-18-ch07访问控制列表">2019-11-18-ch07访问控制列表</span>
+            <span class="post-date" title="2019-11-20 08:56:11">2019/11/20</span>
+        </a>
+        
+        <a  class="CCNA-2 "
+           href="/2019/11/26/CCNA-2/2019-11-26-ch05%20%E4%BA%A4%E6%8D%A2%E6%9C%BA%E9%85%8D%E7%BD%AE/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="2019-11-26-ch05交换机配置">2019-11-26-ch05交换机配置</span>
+            <span class="post-date" title="2019-11-26 14:33:22">2019/11/26</span>
+        </a>
+        
+        <a  class="CCNA-2 "
+           href="/2019/11/28/CCNA-2/2019-11-25-ch03%20%E5%8A%A8%E6%80%81%E8%B7%AF%E7%94%B1/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="2019-11-25-ch03动态路由">2019-11-25-ch03动态路由</span>
+            <span class="post-date" title="2019-11-28 22:10:14">2019/11/28</span>
+        </a>
+        
+        <a  class="CCNA-2 "
+           href="/2019/11/23/CCNA-2/2019-11-23-ch10%20%E8%AE%BE%E5%A4%87%E5%8F%91%E7%8E%B0%EF%BC%8C%E7%AE%A1%E7%90%86%EF%BC%8C%E7%BB%B4%E6%8A%A4/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="2019-11-23-ch10设备发现，管理，维护">2019-11-23-ch10设备发现，管理，维护</span>
+            <span class="post-date" title="2019-11-23 15:05:23">2019/11/23</span>
+        </a>
+        
+        <a  class="CCNA-2 "
+           href="/2019/11/20/CCNA-2/2019-11-16-ch06%20VLAN/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="2019-11-16-ch06VLAN">2019-11-16-ch06VLAN</span>
+            <span class="post-date" title="2019-11-20 08:56:11">2019/11/20</span>
+        </a>
+        
+        <a  class="CCNA-2 "
+           href="/2019/12/03/CCNA-2/2019-12-03-ch02%20%E9%9D%99%E6%80%81%E8%B7%AF%E7%94%B1/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="CCNA-2/2019-12-03-ch02 静态路由">CCNA-2/2019-12-03-ch02 静态路由</span>
+            <span class="post-date" title="2019-12-03 19:00:07">2019/12/03</span>
+        </a>
+        
+        <a  class="CCNA-2 "
+           href="/2019/12/04/CCNA-2/2019-12-06-ch07%20PT%E5%AE%9E%E8%B7%B5/"
+           data-tag=""
+           data-author="" >
+            <span class="post-title" title="CCNA-2/2019-12-06-ch07 PT实践">CCNA-2/2019-12-06-ch07 PT实践</span>
             <span class="post-date" title="2019-12-04 20:43:21">2019/12/04</span>
+        </a>
+        
+        <a  class="CCNA-2 "
+           href="/2019/12/04/CCNA-2/2019-12-04-ch08%20DHCP/"
+           data-tag="DHCP"
+           data-author="" >
+            <span class="post-title" title="CCNA-2/2019-12-04-ch08 DHCP">CCNA-2/2019-12-04-ch08 DHCP</span>
+            <span class="post-date" title="2019-12-04 15:45:15">2019/12/04</span>
         </a>
         
     </nav>
@@ -773,9 +758,9 @@
 </aside>
 <div class="post">
     <div class="pjax">
-        <article id="post-CCNA-2/2019-12-04-ch08DHCP" class="article article-type-post" itemscope itemprop="blogPost">
+        <article id="post-CCNA-2/2019-11-10-ch03 pt实践" class="article article-type-post" itemscope itemprop="blogPost">
     
-        <h1 class="article-title">CCNA-2/2019-12-04-ch08DHCP</h1>
+        <h1 class="article-title">2019-11-10-ch03pt实践</h1>
     
     <div class="article-meta">
         
@@ -788,16 +773,10 @@
         </span>
         
         
-        <span class="tag">
-            
-            <a class="color5">DHCP</a>
-            
-        </span>
-        
     </div>
     <div class="article-meta">
         
-        创建时间:<time class="date" title='更新时间: 2019-12-04 17:34:21'>2019-12-04 15:45</time>
+        创建时间:<time class="date" title='更新时间: 2019-12-03 18:23:15'>2019-11-26 18:09</time>
         
     </div>
     <div class="article-meta">
@@ -830,7 +809,7 @@
     
     <div class="toc-ref">
     
-        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#DHCP"><span class="toc-text">DHCP</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#DHCPv4"><span class="toc-text">DHCPv4</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#工作原理"><span class="toc-text">工作原理</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#获得地址"><span class="toc-text">获得地址</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#消息格式"><span class="toc-text">消息格式</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#配置DHCP服务器"><span class="toc-text">配置DHCP服务器</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#基本配置"><span class="toc-text">基本配置</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#验证"><span class="toc-text">验证</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#DHCPv4中继"><span class="toc-text">DHCPv4中继</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#配置DHCPv4客户端"><span class="toc-text">配置DHCPv4客户端</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#故障排除"><span class="toc-text">故障排除</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#DHCPv6"><span class="toc-text">DHCPv6</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#无状态地址自动配置-SLAAC"><span class="toc-text">无状态地址自动配置(SLAAC)</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#仅SLAAC"><span class="toc-text">仅SLAAC</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#无状态DHCPv6"><span class="toc-text">无状态DHCPv6</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#有状态DHCPv6"><span class="toc-text">有状态DHCPv6</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#通信过程"><span class="toc-text">通信过程</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#配置DHCPv6"><span class="toc-text">配置DHCPv6</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#无状态DHCPv6服务器"><span class="toc-text">无状态DHCPv6服务器</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#有状态DHCPv6服务器"><span class="toc-text">有状态DHCPv6服务器</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#DHCPv6中继"><span class="toc-text">DHCPv6中继</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#故障排除-1"><span class="toc-text">故障排除</span></a></li></ol></li></ol></li></ol>
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#RIP实战"><span class="toc-text">RIP实战</span></a></li></ol>
     
 <style>
     .left-col .switch-btn,
@@ -846,145 +825,56 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="DHCP"><a href="#DHCP" class="headerlink" title="DHCP"></a>DHCP</h1><h2 id="DHCPv4"><a href="#DHCPv4" class="headerlink" title="DHCPv4"></a>DHCPv4</h2><h3 id="工作原理"><a href="#工作原理" class="headerlink" title="工作原理"></a>工作原理</h3><h4 id="获得地址"><a href="#获得地址" class="headerlink" title="获得地址"></a>获得地址</h4><ul>
-<li><p>获取地址</p>
-<p><img src="/2019/12/04/CCNA-2/2019-12-04-ch08DHCP/image-20191204155747916.png" alt="image-20191204155747916"></p>
-</li>
-<li><p>续约</p>
-<p><img src="/2019/12/04/CCNA-2/2019-12-04-ch08DHCP/image-20191204155856202.png" alt="image-20191204155856202"></p>
-</li>
-</ul>
-<h4 id="消息格式"><a href="#消息格式" class="headerlink" title="消息格式"></a>消息格式</h4><ul>
-<li><p>UDP协议, 客户端的端口号是68, 服务器端口是67.</p>
-</li>
-<li><p>DHCPDISCOVER</p>
-<ul>
-<li><img src="/2019/12/04/CCNA-2/2019-12-04-ch08DHCP/image-20191204160652269.png" alt="image-20191204160652269"></li>
-</ul>
-</li>
-<li><p>DHCPOFFER</p>
-<ul>
-<li><img src="/2019/12/04/CCNA-2/2019-12-04-ch08DHCP/image-20191204160825427.png" alt="image-20191204160825427"></li>
-</ul>
-</li>
-<li></li>
-</ul>
-<h3 id="配置DHCP服务器"><a href="#配置DHCP服务器" class="headerlink" title="配置DHCP服务器"></a>配置DHCP服务器</h3><h4 id="基本配置"><a href="#基本配置" class="headerlink" title="基本配置"></a>基本配置</h4><ul>
-<li><p>排除地址</p>
-<pre><code>ip dhcp 192.168.0.1 192.168.0.10 // 排除一个地址段
-ip dhcp 192.168.0.254 // 排除一个地址</code></pre></li>
-<li><p>配置地址池</p>
-<pre><code>ip dhcp pool Name-of-your-pool
-(dhcp-config)
-network 192.168.0.0 255.255.255.0
-default-router 192.168.0.1
-dns-server 192.168.11.5
-domain-name cisco.com
-end</code></pre></li>
-<li><p>禁用/启用</p>
-<pre><code>no service dhcp
-service dhcp</code></pre></li>
-</ul>
-<h4 id="验证"><a href="#验证" class="headerlink" title="验证"></a>验证</h4><pre><code>show run | section dhcp
-show ip dhcp bingding
-show ip dhcp server statistics</code></pre><h4 id="DHCPv4中继"><a href="#DHCPv4中继" class="headerlink" title="DHCPv4中继"></a>DHCPv4中继</h4><p>只需要部署一台DHCP服务器, 整个网络都可以传播DHCP请求. 解决DHCP广播不能跨路由的问题.</p>
-<p>在路由器上设置</p>
-<pre><code>inter g0/0
-ip helper-address 192.168.11.6 // 在g0/0收到dhcp请求, 会单播发给192.168.11.6</code></pre><h3 id="配置DHCPv4客户端"><a href="#配置DHCPv4客户端" class="headerlink" title="配置DHCPv4客户端"></a>配置DHCPv4客户端</h3><p>小型办公室/家庭办公室(SOHO)中的路由器的互联网端口常常配置为DHCP, 接受运营商的IP地址. </p>
-<pre><code>inter g0/1
-ip addr dhcp
-no shut</code></pre><h3 id="故障排除"><a href="#故障排除" class="headerlink" title="故障排除"></a>故障排除</h3><p>常见原因和排除方法</p>
-<ol>
-<li><p>地址冲突</p>
-<p>客户端没有续租, 服务器把ip重新分配给别人. 客户端发出dhcpdiscover的时候服务器没有及时回复. 客户端就重新用上一个ip. 服务器发现了这个情况, 就会停用这个ip.</p>
-<pre><code>show ip dhcp conflict</code></pre></li>
-<li><p>端口没有开启</p>
-</li>
-<li><p>使用静态ip地址测试网络</p>
-</li>
-<li><p>交换机端口配置</p>
-</li>
-<li><p>在相同子网测试dhcpv4</p>
-</li>
-</ol>
-<ul>
-<li><p>验证路由器配置</p>
-<pre><code>show run | section inter g0/0
-show run | include no service dhcp</code></pre><p>防止acl阻止端口</p>
-<pre><code>access-list 100 permit udp any any eq 67
-access-list 100 permit udp any any eq 68</code></pre><p>检查acl 100</p>
-<pre><code>debug ip packet 100
-debug ip dhcp events // 报告服务器时间</code></pre></li>
-</ul>
-<h2 id="DHCPv6"><a href="#DHCPv6" class="headerlink" title="DHCPv6"></a>DHCPv6</h2><h4 id="无状态地址自动配置-SLAAC"><a href="#无状态地址自动配置-SLAAC" class="headerlink" title="无状态地址自动配置(SLAAC)"></a>无状态地址自动配置(SLAAC)</h4><p>在没有 DHCPv6 服务器服务的情况下获取 IPv6 全局单播地址</p>
-<ul>
-<li><p>路由器请求(RS)</p>
-<p>客户端使用SLAAC获取编址信息, 把RS消息发给路由器, 使用<strong>组播地址</strong><code>FF02::2</code></p>
-</li>
-<li><p>路由器通告(RA)</p>
-<p>RA 消息包括本地数据段的前缀和前缀长度. 定期发送RA.使用<strong>组播地址</strong><code>FF02::1</code></p>
-<p>后缀通过随机的方式生成, 或使用EUI-64通过MAC地址生成.</p>
-<p>在使用这个地址前, 会发送ICMPv6的邻居请求消息. 发送后24位. 如果没有收到应答则采用. 称为邻居地址检测(DAD)</p>
-</li>
-</ul>
-<h4 id="仅SLAAC"><a href="#仅SLAAC" class="headerlink" title="仅SLAAC"></a>仅SLAAC</h4><p>通告<code>前缀、前缀长度、DNS 服务器、MTU 和默认网关信息</code></p>
-<p>将M标记O标记都设置为0</p>
-<pre><code>no ipv6 nd managed-config-flag
-no ipv6 nd other-config-flag</code></pre><h4 id="无状态DHCPv6"><a href="#无状态DHCPv6" class="headerlink" title="无状态DHCPv6"></a>无状态DHCPv6</h4><p>客户端使用 RA 消息中的前缀和前缀长度</p>
-<p>与无状态 DHCPv6 服务器通信以获取 RA 消息中未提供的其他信息. 例如, 这可能是 DNS 服务器 IPv6 地址列表. </p>
-<pre><code>ipv6 nd other-config-flag // O设为1. M默认是0</code></pre><h4 id="有状态DHCPv6"><a href="#有状态DHCPv6" class="headerlink" title="有状态DHCPv6"></a>有状态DHCPv6</h4><p>不用RA, 从DHCPv6服务器获取所有信息</p>
-<pre><code>ipv6 nd managed-config-flag // M设为1. O默认是0</code></pre><h4 id="通信过程"><a href="#通信过程" class="headerlink" title="通信过程"></a>通信过程</h4><p><img src="/2019/12/04/CCNA-2/2019-12-04-ch08DHCP/image-20191204170917519.png" alt="image-20191204170917519"></p>
-<h3 id="配置DHCPv6"><a href="#配置DHCPv6" class="headerlink" title="配置DHCPv6"></a>配置DHCPv6</h3><h4 id="无状态DHCPv6服务器"><a href="#无状态DHCPv6服务器" class="headerlink" title="无状态DHCPv6服务器"></a>无状态DHCPv6服务器</h4><pre><code>ipv6 unicast-routing
-ipv6 dhcp poop NAME-of-POOL
-dns server [dns服务器地址]
-domain-name example.com
-inter g0/0
-ipv6 addr ...
-ipv6 dhcp server NAME-of-POOL
-ipv6 nd other-config-flag</code></pre><ul>
-<li><p>验证</p>
-<pre><code>  show ipv6 dhcp pool
-  show ipv6 inter g0/1
-  debug ipv6 dhcp detail</code></pre></li>
-<li><p>无状态DHCPv6客户端</p>
-<pre><code>  inter g0/1
-  ipv6 enable
-  ipv6 addr autoconfig</code></pre></li>
-</ul>
-<h4 id="有状态DHCPv6服务器"><a href="#有状态DHCPv6服务器" class="headerlink" title="有状态DHCPv6服务器"></a>有状态DHCPv6服务器</h4><pre><code>ipv6 unicast-routing
-ipv6 dhcp poop NAME-of-POOL
-address prefix .../64 lifetime infinite
-dns server [dns服务器地址]
-domain-name example.com
-inter g0/0
-ipv6 addr ...
-ipv6 dhcp server NAME-of-POOL
-ipv6 nd managed-config-flag</code></pre><ul>
-<li><p>有状态DHCPv6客户端</p>
-<pre><code>  inter g0/1
-  ipv6 enable
-  ipv6 addr dhcp</code></pre></li>
-<li><p>验证</p>
-<pre><code>show ipv6 dhcp pool
-show ipv6 dhcp binding //客户端的本地链路地址与服务器分配的地址之间的自动绑定
-show ipv6 inter g0/1
-debug ipv6 dhcp detail</code></pre></li>
-</ul>
-<h4 id="DHCPv6中继"><a href="#DHCPv6中继" class="headerlink" title="DHCPv6中继"></a>DHCPv6中继</h4><pre><code>inter g0/0
-ipv6 dhcp relay destination 2001:db8:cafe:1::6
-end</code></pre><h3 id="故障排除-1"><a href="#故障排除-1" class="headerlink" title="故障排除"></a>故障排除</h3><ol>
-<li><p>地址冲突</p>
-<p>客户端会自行删除地址, 并且随机生成后缀</p>
-</li>
-<li><p>地址分配方法</p>
-</li>
-<li><p>静态IPv6测试</p>
-</li>
-<li><p>交换机端口</p>
-</li>
-<li><p>相同子网上测试</p>
-</li>
-</ol>
+        <h1 id="RIP实战"><a href="#RIP实战" class="headerlink" title="RIP实战"></a>RIP实战</h1><p>现在查看<a href="https://www.ccna7.com/3-2-1-8-packet-tracer-configuring-ripv2/" target="_blank" rel="noopener">实战部分1</a></p>
+<p>R1</p>
+<pre><code class="tcl">!R1
+en
+conf terminal
+!Use the appropriate command to create a default route on R1 for all Internet traffic to exit the network through S0/0/1.
+ip route 0.0.0.0 0.0.0.0 s0/0/1
+!Enter RIP protocol configuration mode.
+router rip
+!Use version 2 of the RIP protocol and disable the summarization of networks.
+version 2
+no auto-summary
+!Configure RIP for the networks that connect to R1.
+network 192.168.1.0
+network 192.168.2.0
+!Configure the LAN port that contains no routers so that it does not send out any routing information.
+passive-interface gig 0/0
+!Advertise the default route configured in step 1a with other RIP routers.
+default-information originate
+exit
+exit
+!check configure
+show ip protocols
+!save configure
+copy running-config startup-config </code></pre>
+<p>R2</p>
+<pre><code>en
+conf terminal
+route rip
+version 2
+no auto-summary
+network 192.168.2.0
+network 192.168.3.0
+network 192.168.4.0
+passive-interface gig 0/0
+exit
+exit
+Copy running-config startup-config</code></pre><p>R3</p>
+<pre><code class="tcl">en
+conf terminal
+router rip
+version 2
+no auto-summary
+network 192.168.4.0
+network 192.168.5.0
+passive-interface gig 0/0
+exit
+exit
+Copy running-config startup-config</code></pre>
+<p><a href="http://www.cabrillo.edu/~rgraziani/cis82/labs-v6/3-2-1-9-Lab-ConfiguringBasicRIPv2.pdf" target="_blank" rel="noopener">实战部分2</a></p>
 
       
        <hr><span style="font-style: italic;color: gray;"> 欢迎贡献！！！ </span>
